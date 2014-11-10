@@ -1,7 +1,7 @@
 ##support Mongodb,Mysql,Hbase,ES .... ,And there Sql'result to redis cache .
 
 ```
-from sqltocache import cache_it_json
+from sqltocache import cache_it_msgpack
 
 @cache_it_msgpack(cache=self.c)
 def add_it(a, b=10, c=5):
